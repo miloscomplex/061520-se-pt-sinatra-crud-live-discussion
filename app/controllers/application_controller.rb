@@ -11,4 +11,17 @@ class ApplicationController < Sinatra::Base
     erb :welcome
   end
 
+  get "/stars/new" do
+    erb :new_star
+  end
+
+  post "/stars/new" do
+    @name = params[:name]
+    @light_years = params[:light_years]
+    erb :stars
+  end
+
+  get "/stars" do
+    erb :stars
+  end
 end
