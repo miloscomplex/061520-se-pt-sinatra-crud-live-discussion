@@ -1,6 +1,8 @@
 # CRUD in Sinatra
 
-Today we're going to be building CRUD in Sinatra. There is already
+Today we're going to be building CRUD in Sinatra. The models have already been built, we just need to spend some time on their controllers and views.
+
+To get started, clone this down and run `bundle install` along with `rake db:migrate` and `rake db:seed`.
 
 ## Create
 
